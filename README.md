@@ -27,4 +27,4 @@ El cubo tiene animaciones suaves, efectos de partículas y se puede interactuar 
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/NOMBRE_REPO.git
+   git clone https://github.com/95devFran/the-cube.git
