@@ -1,0 +1,41 @@
+/* Reset y fondo */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #0a0a0a;
+}
+
+/* Canvas 3D */
+canvas {
+  display: block;
+}
+
+/* Contenedor 3D */
+#scene-container {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+/* Gradientes overlay */
+.bg-gradient-to-r,
+.bg-gradient-to-b {
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Botones minimalistas */
+button {
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+/* Opcional: efecto hover personalizado */
+button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Watermark */
+.text-white\/60 {
+  color: rgba(255, 255, 255, 0.6);
+}
