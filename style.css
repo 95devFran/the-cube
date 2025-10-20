@@ -39,3 +39,19 @@ button:hover {
 .text-white\/60 {
   color: rgba(255, 255, 255, 0.6);
 }
+
+#branding {
+  position: absolute;       /* Flotante sobre el canvas */
+  bottom: 10px;             /* 10px desde abajo */
+  right: 10px;              /* 10px desde la derecha */
+  font-size: 12px;          /* Tamaño pequeño y elegante */
+  color: rgba(255, 255, 255, 0.7); /* Blanco con transparencia */
+  font-family: 'Arial', sans-serif;
+  background: rgba(0, 0, 0, 0.3);  /* Fondo sutil para contraste */
+  padding: 4px 8px;         /* Pequeño padding */
+  border-radius: 6px;       /* Bordes redondeados */
+  pointer-events: none;     /* No interfiere con el mouse */
+  z-index: 30;              /* Siempre encima de todo */
+}
+
+
